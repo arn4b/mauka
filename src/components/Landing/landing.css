@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.hero {
+    background-color: #0a1e32;
+    height: 100vh;
+    color: white;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+}
+
+.img-hero {
+    width: 40rem;
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+}
+
+@media only screen and (max-width: 786px) {
+    .img-hero {
+        display: none;
+    }
+}
