@@ -22,7 +22,7 @@ export default function About() {
 
             <Col sm={6} className="col2" ><img className="abt-img" src="https://maukaeducation.com/static/img/cohort.png"/></Col>
                 <Col sm={5} className="cohort" >
-                    <h3 style={{fontWeight:600, color: '#444444'}} >Join our #CohortOne</h3>
+                    <h3 style={{fontWeight:700, color: '#444444'}} >Join our #CohortOne</h3>
                     <h3 style={{ color: '#444444'}}><i>Get exclusive access to our community of 20 highly motivated individuals like you.  </i></h3>
 
                     <br/>

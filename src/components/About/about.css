@@ -6,7 +6,7 @@
     margin-bottom: 1em;
     padding: 10px;
     color: #062b5b;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     font-size: 1.4em;
     letter-spacing: 1px;
@@ -22,16 +22,16 @@
     
     margin: 2rem 0;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about h3, h4, h5 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .col1 {    
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 5rem;
 }
 

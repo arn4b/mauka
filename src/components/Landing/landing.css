@@ -1,27 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 .hero {
     background-color: #0a1e32;
     height: 100vh;
     color: white;
 }
 
+.hero h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
 .hero h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 3.5rem;
+    font-weight: 700;
+    font-size: 3.25rem;
     margin-top: 5rem;
 }
 
 .img-hero {
-    width: 40rem;
+    width: 40vw;
     position: relative;
     top: 10rem;
     left: 5rem;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 1006px) {
+    .hero {
+        height: 120vh;
+    }
     .img-hero {
-        display: none;
+        left: 0;
+        top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 862px) {
+    .img-hero {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img-hero {
+        width: 80vw;
+    }
+    .hero {
+        height: 150vh;
     }
 }
